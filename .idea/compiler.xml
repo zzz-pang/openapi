@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="oprnapi-gateway" />
+        <module name="openapi-web-master" />
+        <module name="openapi-eureka" />
+        <module name="openapi-cache" />
+        <module name="openapi-search" />
+        <module name="openapi-quartz-monitor" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="openapi-gateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="openapi-cache" options="-parameters" />
+      <module name="openapi-eureka" options="-parameters" />
+      <module name="openapi-gateway" options="-parameters" />
+      <module name="openapi-quartz-monitor" options="-parameters" />
+      <module name="openapi-search" options="-parameters" />
+      <module name="openapi-web-master" options="-parameters" />
+      <module name="oprnapi-gateway" options="-parameters" />
+    </option>
+  </component>
+</project>

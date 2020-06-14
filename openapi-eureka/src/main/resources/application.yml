@@ -1,0 +1,18 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: openapi-eureka
+  security:
+    user:
+      name: zhao
+      password: zhao
+#Eureka配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka
+    fetch-registry: false
+    register-with-eureka: false
+  instance:
+    ip-address: 127.0.0.1

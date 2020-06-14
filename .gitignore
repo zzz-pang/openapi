@@ -1,0 +1,7 @@
+# Project exclude paths
+/openapi-cache/target/
+/openapi-eureka/target/
+/openapi-quartz-monitor/target/
+/openapi-search/target/
+/openapi-web-master/target/
+/oprnapi-gateway/target/
